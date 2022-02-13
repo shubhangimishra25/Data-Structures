@@ -36,10 +36,10 @@ def selection_sort(a):
 
         #  swapping the largest element with the correct position that is the last element
         a[n-i-1],a[max]=a[max],a[n-i-1]
-        
+
         print(a,'after swapping ',a[n-i-1],a[max],'where',a[n-i-1],' is the maximum  and is being placed at the last position')
     return a
 
-# calling the bubble sort 
+# calling the selection sort 
 a=[4,5,1,2,3]
 print(selection_sort(a))
