@@ -45,7 +45,7 @@ def bubble_sort(a):
                 swapped=True
 
         # loop will break as the array is already overall sorted
-        if swapped!=True:
+        if not swapped:
             break
     return a
 
